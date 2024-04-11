@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "o+A3cC8qkXxapMa9Vzl8yvWtWCCeRgn0tO4+PJ0MUtiCCMLBNDJnmFFp4xJoULVeX0CFnB+XldLTncjlgoyEfg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\igmar\\Desktop\\ASP_NET_CORE_ENTERPRISE\\NerdStoreEnterprise\\NSE.Core\\NSE.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\igmar\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\igmar\\.nuget\\packages\\mediatr\\8.0.0\\mediatr.8.0.0.nupkg.sha512",
+    "C:\\Users\\igmar\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\igmar\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\igmar\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512",
+    "C:\\Users\\igmar\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

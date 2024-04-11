@@ -1,0 +1,12 @@
+C:\Users\igmar\Desktop\ASP_NET_CORE_ENTERPRISE\NerdStoreEnterprise\NSE.Core\bin\Debug\net6.0\NSE.Core.deps.json
+C:\Users\igmar\Desktop\ASP_NET_CORE_ENTERPRISE\NerdStoreEnterprise\NSE.Core\bin\Debug\net6.0\NSE.Core.dll
+C:\Users\igmar\Desktop\ASP_NET_CORE_ENTERPRISE\NerdStoreEnterprise\NSE.Core\bin\Debug\net6.0\NSE.Core.pdb
+C:\Users\igmar\Desktop\ASP_NET_CORE_ENTERPRISE\NerdStoreEnterprise\NSE.Core\obj\Debug\net6.0\NSE.Core.csproj.AssemblyReference.cache
+C:\Users\igmar\Desktop\ASP_NET_CORE_ENTERPRISE\NerdStoreEnterprise\NSE.Core\obj\Debug\net6.0\NSE.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igmar\Desktop\ASP_NET_CORE_ENTERPRISE\NerdStoreEnterprise\NSE.Core\obj\Debug\net6.0\NSE.Core.AssemblyInfoInputs.cache
+C:\Users\igmar\Desktop\ASP_NET_CORE_ENTERPRISE\NerdStoreEnterprise\NSE.Core\obj\Debug\net6.0\NSE.Core.AssemblyInfo.cs
+C:\Users\igmar\Desktop\ASP_NET_CORE_ENTERPRISE\NerdStoreEnterprise\NSE.Core\obj\Debug\net6.0\NSE.Core.csproj.CoreCompileInputs.cache
+C:\Users\igmar\Desktop\ASP_NET_CORE_ENTERPRISE\NerdStoreEnterprise\NSE.Core\obj\Debug\net6.0\NSE.Core.dll
+C:\Users\igmar\Desktop\ASP_NET_CORE_ENTERPRISE\NerdStoreEnterprise\NSE.Core\obj\Debug\net6.0\refint\NSE.Core.dll
+C:\Users\igmar\Desktop\ASP_NET_CORE_ENTERPRISE\NerdStoreEnterprise\NSE.Core\obj\Debug\net6.0\NSE.Core.pdb
+C:\Users\igmar\Desktop\ASP_NET_CORE_ENTERPRISE\NerdStoreEnterprise\NSE.Core\obj\Debug\net6.0\ref\NSE.Core.dll
