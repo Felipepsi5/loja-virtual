@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "G/hAaNB9ELh7Ej7w3Ob8jOoYgq862qE0og1oh1wDKo4=",
+  "Source": "NSE.BFF.Compras",
+  "BasePath": "_content/NSE.BFF.Compras",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

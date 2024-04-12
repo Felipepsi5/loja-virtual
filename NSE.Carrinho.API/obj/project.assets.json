@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net8.0": {
       "EasyNetQ/6.5.2": {
         "type": "package",
         "dependencies": {
@@ -1215,7 +1215,7 @@
       },
       "NSE.Core/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "FluentValidation": "8.6.2",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
@@ -1230,7 +1230,7 @@
       },
       "NSE.Identidade.API/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.25",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.25",
@@ -1257,7 +1257,7 @@
       },
       "NSE.MessageBus/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "EasyNetQ": "6.5.2",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
@@ -1273,7 +1273,7 @@
       },
       "NSE.Web.Api.Core/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.25",
           "Microsoft.Extensions.Http.Polly": "6.0.26",
@@ -3322,7 +3322,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net8.0": [
       "Microsoft.EntityFrameworkCore >= 6.0.25",
       "Microsoft.EntityFrameworkCore.Abstractions >= 6.0.25",
       "Microsoft.EntityFrameworkCore.Relational >= 6.0.25",
@@ -3333,40 +3333,39 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\igmar\\.nuget\\packages\\": {},
+    "C:\\Users\\felip\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\igmar\\Desktop\\ASP_NET_CORE_ENTERPRISE\\NerdStoreEnterprise\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj",
+      "projectUniqueName": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj",
       "projectName": "NSE.Carrinho.API",
-      "projectPath": "C:\\Users\\igmar\\Desktop\\ASP_NET_CORE_ENTERPRISE\\NerdStoreEnterprise\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj",
-      "packagesPath": "C:\\Users\\igmar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\igmar\\Desktop\\ASP_NET_CORE_ENTERPRISE\\NerdStoreEnterprise\\NSE.Carrinho.API\\obj\\",
+      "projectPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj",
+      "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Carrinho.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\igmar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\igmar\\Desktop\\ASP_NET_CORE_ENTERPRISE\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj": {
-              "projectPath": "C:\\Users\\igmar\\Desktop\\ASP_NET_CORE_ENTERPRISE\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj"
+            "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj": {
+              "projectPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj"
             }
           }
         }
@@ -3375,11 +3374,16 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -3425,7 +3429,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

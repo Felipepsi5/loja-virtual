@@ -1,0 +1,13 @@
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Core\bin\Debug\net8.0\NSE.Core.deps.json
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Core\bin\Debug\net8.0\NSE.Core.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Core\bin\Debug\net8.0\NSE.Core.pdb
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Core\obj\Debug\net8.0\NSE.Core.csproj.AssemblyReference.cache
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Core\obj\Debug\net8.0\NSE.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Core\obj\Debug\net8.0\NSE.Core.AssemblyInfoInputs.cache
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Core\obj\Debug\net8.0\NSE.Core.AssemblyInfo.cs
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Core\obj\Debug\net8.0\NSE.Core.csproj.CoreCompileInputs.cache
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Core\obj\Debug\net8.0\NSE.Core.sourcelink.json
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Core\obj\Debug\net8.0\NSE.Core.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Core\obj\Debug\net8.0\refint\NSE.Core.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Core\obj\Debug\net8.0\NSE.Core.pdb
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Core\obj\Debug\net8.0\ref\NSE.Core.dll

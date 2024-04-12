@@ -1,0 +1,16 @@
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Web.Api.Core\bin\Debug\net8.0\NSE.Web.Api.Core.deps.json
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Web.Api.Core\bin\Debug\net8.0\NSE.Web.Api.Core.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Web.Api.Core\bin\Debug\net8.0\NSE.Web.Api.Core.pdb
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Web.Api.Core\bin\Debug\net8.0\NSE.Core.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Web.Api.Core\bin\Debug\net8.0\NSE.Core.pdb
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Web.Api.Core\obj\Debug\net8.0\NSE.Web.Api.Core.csproj.AssemblyReference.cache
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Web.Api.Core\obj\Debug\net8.0\NSE.Web.Api.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Web.Api.Core\obj\Debug\net8.0\NSE.Web.Api.Core.AssemblyInfoInputs.cache
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Web.Api.Core\obj\Debug\net8.0\NSE.Web.Api.Core.AssemblyInfo.cs
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Web.Api.Core\obj\Debug\net8.0\NSE.Web.Api.Core.csproj.CoreCompileInputs.cache
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Web.Api.Core\obj\Debug\net8.0\NSE.Web.Api.Core.sourcelink.json
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Web.Api.Core\obj\Debug\net8.0\NSE.Web..F3AAF14B.Up2Date
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Web.Api.Core\obj\Debug\net8.0\NSE.Web.Api.Core.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Web.Api.Core\obj\Debug\net8.0\refint\NSE.Web.Api.Core.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Web.Api.Core\obj\Debug\net8.0\NSE.Web.Api.Core.pdb
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Web.Api.Core\obj\Debug\net8.0\ref\NSE.Web.Api.Core.dll

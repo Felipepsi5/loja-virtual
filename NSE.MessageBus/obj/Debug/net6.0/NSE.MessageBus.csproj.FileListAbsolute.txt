@@ -13,3 +13,19 @@ C:\Users\igmar\Desktop\ASP_NET_CORE_ENTERPRISE\NerdStoreEnterprise\NSE.MessageBu
 C:\Users\igmar\Desktop\ASP_NET_CORE_ENTERPRISE\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\net6.0\refint\NSE.MessageBus.dll
 C:\Users\igmar\Desktop\ASP_NET_CORE_ENTERPRISE\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\net6.0\NSE.MessageBus.pdb
 C:\Users\igmar\Desktop\ASP_NET_CORE_ENTERPRISE\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\net6.0\ref\NSE.MessageBus.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.MessageBus\bin\Debug\net6.0\NSE.MessageBus.deps.json
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.MessageBus\bin\Debug\net6.0\NSE.MessageBus.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.MessageBus\bin\Debug\net6.0\NSE.MessageBus.pdb
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.MessageBus\bin\Debug\net6.0\NSE.Core.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.MessageBus\bin\Debug\net6.0\NSE.Core.pdb
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.MessageBus\obj\Debug\net6.0\NSE.MessageBus.csproj.AssemblyReference.cache
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.MessageBus\obj\Debug\net6.0\NSE.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.MessageBus\obj\Debug\net6.0\NSE.MessageBus.AssemblyInfoInputs.cache
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.MessageBus\obj\Debug\net6.0\NSE.MessageBus.AssemblyInfo.cs
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.MessageBus\obj\Debug\net6.0\NSE.MessageBus.csproj.CoreCompileInputs.cache
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.MessageBus\obj\Debug\net6.0\NSE.MessageBus.sourcelink.json
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.MessageBus\obj\Debug\net6.0\NSE.Mess.4CC54AFA.Up2Date
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.MessageBus\obj\Debug\net6.0\NSE.MessageBus.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.MessageBus\obj\Debug\net6.0\refint\NSE.MessageBus.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.MessageBus\obj\Debug\net6.0\NSE.MessageBus.pdb
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.MessageBus\obj\Debug\net6.0\ref\NSE.MessageBus.dll
