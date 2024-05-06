@@ -4,14 +4,14 @@
     "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedido.API\\NSE.Pedido.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedido.API\\NSE.Pedido.API.csproj": {
+    "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Core\\NSE.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedido.API\\NSE.Pedido.API.csproj",
-        "projectName": "NSE.Pedido.API",
-        "projectPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedido.API\\NSE.Pedido.API.csproj",
+        "projectUniqueName": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Core\\NSE.Core.csproj",
+        "projectName": "NSE.Core",
+        "projectPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Core\\NSE.Core.csproj",
         "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedido.API\\obj\\",
+        "outputPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,118 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "mediatr": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedido.API\\NSE.Pedido.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedido.API\\NSE.Pedido.API.csproj",
+        "projectName": "NSE.Pedido.API",
+        "projectPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedido.API\\NSE.Pedido.API.csproj",
+        "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedido.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Core\\NSE.Core.csproj": {
+                "projectPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Core\\NSE.Core.csproj"
+              },
+              "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj": {
+                "projectPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj"
+              },
+              "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Web.Api.Core\\NSE.Web.Api.Core.csproj": {
+                "projectPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Web.Api.Core\\NSE.Web.Api.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -69,6 +181,242 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj",
+        "projectName": "NSE.Pedidos.Domain",
+        "projectPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj",
+        "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedidos.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Core\\NSE.Core.csproj": {
+                "projectPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Core\\NSE.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj",
+        "projectName": "NSE.Pedidos.Infra",
+        "projectPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj",
+        "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedidos.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj": {
+                "projectPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Web.Api.Core\\NSE.Web.Api.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Web.Api.Core\\NSE.Web.Api.Core.csproj",
+        "projectName": "NSE.Web.Api.Core",
+        "projectPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Web.Api.Core\\NSE.Web.Api.Core.csproj",
+        "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Web.Api.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Core\\NSE.Core.csproj": {
+                "projectPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Core\\NSE.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[6.0.26, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

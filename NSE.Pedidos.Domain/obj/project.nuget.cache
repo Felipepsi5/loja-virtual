@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "zAYB018nk7w8YGsNhW5018465T2nFYCYT+U/QRDQWe2zpUJyhmwhTvudL0VH2YAhp0W2S48wVSFhHJZ/MvjCsg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\felip\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\felip\\.nuget\\packages\\mediatr\\8.0.0\\mediatr.8.0.0.nupkg.sha512",
+    "C:\\Users\\felip\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\felip\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\felip\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512",
+    "C:\\Users\\felip\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
