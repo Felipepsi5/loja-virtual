@@ -13,7 +13,7 @@ namespace NSE.Pedidos.Domain.Pedidos
             ValorTotal = valorTotal;
             VoucherId = voucherId;
 
-            _pedidoItems = pedidoItems;
+            _PedidoItems = pedidoItems;
             Desconto = desconto;
             VoucherUtilizado = voucherUtilizado;
         }
@@ -29,13 +29,13 @@ namespace NSE.Pedidos.Domain.Pedidos
         public DateTime DataCadastro { get; private set; }
         public PedidoStatus PedidoStatus { get; private set; }
 
-        private readonly List<PedidoItem> _pedidoItems;
-        public IReadOnlyCollection<PedidoItem> pedidoItems => _pedidoItems;
+        private readonly List<PedidoItem> _PedidoItems;
+        public IReadOnlyCollection<PedidoItem> PedidoItems => _PedidoItems;
         public Endereco? Endereco { get; private set; }
         public Voucher? Voucher { get; private set; }
 
 
-        public void AtualizarPedido()
+        public void AutorizarPedido()
         {
             PedidoStatus = PedidoStatus.Autorizado;
         }
@@ -54,7 +54,7 @@ namespace NSE.Pedidos.Domain.Pedidos
 
         public void CalcularValorPedido()
         {
-            ValorTotal = _pedidoItems.Sum(p => p.CalcularValor());
+            ValorTotal = _PedidoItems.Sum(p => p.CalcularValor());
             CalcularValorTotalDesconto();
         }
 

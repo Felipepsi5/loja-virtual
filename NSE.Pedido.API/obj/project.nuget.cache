@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "L//cUfXBPR7jXRZ4dkX0LsgplF9rOC894v0C/fXspb/05A0X18ce7jOhVccw02MOp9wG15Ys9dN11Cil/aPz7w==",
+  "dgSpecHash": "fULXbNf9sW6LoAFNmQ1VU15wFmpAYOM0dT9JCd9AjKUPmU9bCWQ4aXuBwLv4wqg5BNXLM3wOOYPZctGqzAI+lg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedido.API\\NSE.Pedido.API.csproj",
+  "projectFilePath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedido.API\\NSE.Pedidos.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\felip\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512",

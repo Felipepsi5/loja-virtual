@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89E4906C-CBBC-48C9-B012-2DA899BE0294}|NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\loja-virtual\\nse.pedidos.domain\\pedidos\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89E4906C-CBBC-48C9-B012-2DA899BE0294}|NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj|solutionrelative:nse.pedidos.domain\\pedidos\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26139374-C7F0-4CB4-A7D4-35C94FE3AE35}|NSE.Pedido.API\\NSE.Pedidos.API.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\loja-virtual\\nse.pedido.api\\application\\queries\\pedidoqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26139374-C7F0-4CB4-A7D4-35C94FE3AE35}|NSE.Pedido.API\\NSE.Pedidos.API.csproj|solutionrelative:nse.pedido.api\\application\\queries\\pedidoqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26139374-C7F0-4CB4-A7D4-35C94FE3AE35}|NSE.Pedido.API\\NSE.Pedidos.API.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\loja-virtual\\nse.pedido.api\\application\\queries\\voucherqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26139374-C7F0-4CB4-A7D4-35C94FE3AE35}|NSE.Pedido.API\\NSE.Pedidos.API.csproj|solutionrelative:nse.pedido.api\\application\\queries\\voucherqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26139374-C7F0-4CB4-A7D4-35C94FE3AE35}|NSE.Pedido.API\\NSE.Pedidos.API.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\loja-virtual\\nse.pedido.api\\application\\commands\\pedidocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26139374-C7F0-4CB4-A7D4-35C94FE3AE35}|NSE.Pedido.API\\NSE.Pedidos.API.csproj|solutionrelative:nse.pedido.api\\application\\commands\\pedidocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26139374-C7F0-4CB4-A7D4-35C94FE3AE35}|NSE.Pedido.API\\NSE.Pedidos.API.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\loja-virtual\\nse.pedido.api\\application\\commands\\adicionarpedidocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26139374-C7F0-4CB4-A7D4-35C94FE3AE35}|NSE.Pedido.API\\NSE.Pedidos.API.csproj|solutionrelative:nse.pedido.api\\application\\commands\\adicionarpedidocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.Pedidos.Domain\\Pedidos\\Pedido.cs",
-              "RelativeDocumentMoniker": "NSE.Pedidos.Domain\\Pedidos\\Pedido.cs",
-              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.Pedidos.Domain\\Pedidos\\Pedido.cs",
-              "RelativeToolTip": "NSE.Pedidos.Domain\\Pedidos\\Pedido.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAwAAAA",
+              "Title": "PedidoQueries.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.Pedido.API\\Application\\Queries\\PedidoQueries.cs",
+              "RelativeDocumentMoniker": "NSE.Pedido.API\\Application\\Queries\\PedidoQueries.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.Pedido.API\\Application\\Queries\\PedidoQueries.cs",
+              "RelativeToolTip": "NSE.Pedido.API\\Application\\Queries\\PedidoQueries.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCoAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T01:31:44.813Z",
+              "WhenOpened": "2024-05-13T03:09:12.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VoucherQueries.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.Pedido.API\\Application\\Queries\\VoucherQueries.cs",
+              "RelativeDocumentMoniker": "NSE.Pedido.API\\Application\\Queries\\VoucherQueries.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.Pedido.API\\Application\\Queries\\VoucherQueries.cs",
+              "RelativeToolTip": "NSE.Pedido.API\\Application\\Queries\\VoucherQueries.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBIAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T03:08:56.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PedidoCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.Pedido.API\\Application\\Commands\\PedidoCommandHandler.cs",
+              "RelativeDocumentMoniker": "NSE.Pedido.API\\Application\\Commands\\PedidoCommandHandler.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.Pedido.API\\Application\\Commands\\PedidoCommandHandler.cs",
+              "RelativeToolTip": "NSE.Pedido.API\\Application\\Commands\\PedidoCommandHandler.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T02:18:47.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdicionarPedidoCommand.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.Pedido.API\\Application\\Commands\\AdicionarPedidoCommand.cs",
+              "RelativeDocumentMoniker": "NSE.Pedido.API\\Application\\Commands\\AdicionarPedidoCommand.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.Pedido.API\\Application\\Commands\\AdicionarPedidoCommand.cs",
+              "RelativeToolTip": "NSE.Pedido.API\\Application\\Commands\\AdicionarPedidoCommand.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA9wBcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T02:18:43.719Z",
               "EditorCaption": ""
             }
           ]

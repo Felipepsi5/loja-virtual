@@ -1,7 +1,7 @@
-﻿using NSE.Pedido.API.Application.DTO;
+﻿using NSE.Pedidos.API.Application.DTO;
 using NSE.Pedidos.Domain.Vouchers;
 
-namespace NSE.Pedido.API.Application.Queries
+namespace NSE.Pedidos.API.Application.Queries
 {
     public interface IVoucherQueries
     {

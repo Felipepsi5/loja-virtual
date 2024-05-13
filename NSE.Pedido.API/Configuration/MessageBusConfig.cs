@@ -1,6 +1,6 @@
 ﻿using NSE.Core.Utils;
 
-namespace NSE.Pedido.API.Configuration
+namespace NSE.Pedidos.API.Configuration
 {
     public static class MessageBusConfig
     {

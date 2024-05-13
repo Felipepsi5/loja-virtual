@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Dapper/2.1.35": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "FluentValidation/8.6.2": {
         "type": "package",
         "dependencies": {
@@ -1070,6 +1083,27 @@
     }
   },
   "libraries": {
+    "Dapper/2.1.35": {
+      "sha512": "YKRwjVfrG7GYOovlGyQoMvr1/IJdn+7QzNXJxyMh0YfFF5yvDmTYaJOVYWsckreNjGsGSEtrMTpnzxTUq/tZQw==",
+      "type": "package",
+      "path": "dapper/2.1.35",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.1.35.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/net7.0/Dapper.dll",
+        "lib/net7.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml",
+        "readme.md"
+      ]
+    },
     "FluentValidation/8.6.2": {
       "sha512": "N2vz+f6pAX9AI19hu83U2LJjjc/ETzWGlICVanu3DIG76QhzEu3PR/CQSFBX69PRuBTivrW4jhBzeV7dXIfqyw==",
       "type": "package",
@@ -2672,6 +2706,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Dapper >= 2.1.35",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 8.1.0",
       "Microsoft.EntityFrameworkCore >= 6.0.25",
       "Microsoft.EntityFrameworkCore.Abstractions >= 6.0.25",
@@ -2679,6 +2714,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.25",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.25",
       "NSE.Core >= 1.0.0",
+      "NSE.Pedidos.Domain >= 1.0.0",
       "NSE.Pedidos.Infra >= 1.0.0",
       "NSE.Web.Api.Core >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
@@ -2691,9 +2727,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedido.API\\NSE.Pedido.API.csproj",
-      "projectName": "NSE.Pedido.API",
-      "projectPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedido.API\\NSE.Pedido.API.csproj",
+      "projectUniqueName": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedido.API\\NSE.Pedidos.API.csproj",
+      "projectName": "NSE.Pedidos.API",
+      "projectPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedido.API\\NSE.Pedidos.API.csproj",
       "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedido.API\\obj\\",
       "projectStyle": "PackageReference",
@@ -2719,6 +2755,9 @@
             "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Core\\NSE.Core.csproj": {
               "projectPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Core\\NSE.Core.csproj"
             },
+            "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj": {
+              "projectPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj"
+            },
             "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj": {
               "projectPath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\loja-virtual\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj"
             },
@@ -2743,6 +2782,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.1.35, )"
+          },
           "MediatR.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[8.1.0, )"

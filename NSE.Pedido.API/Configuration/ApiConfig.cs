@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NSE.Pedidos.Infra.Data;
 
-namespace NSE.Pedido.API.Configuration
+namespace NSE.Pedidos.API.Configuration
 {
     public static class ApiConfig
     {
