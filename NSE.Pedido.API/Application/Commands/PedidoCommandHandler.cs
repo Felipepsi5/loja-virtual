@@ -18,7 +18,6 @@ namespace NSE.Pedidos.API.Application.Commands
         {
             _voucherRepository = voucherRepository;
             _pedidoRepository = pedidoRepository;
-
         }
 
         public async Task<ValidationResult> Handle(AdicionarPedidoCommand message, CancellationToken cancellationToken)

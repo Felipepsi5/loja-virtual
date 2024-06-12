@@ -7,7 +7,8 @@ using NSE.Core.Messages;
 namespace NSE.Clientes.API.Application.Commands
 {
     public class ClienteCommandHandler : CommandHandler,
-         IRequestHandler<RegistrarClienteCommand, ValidationResult>
+         IRequestHandler<RegistrarClienteCommand, ValidationResult>,
+         IRequestHandler<AdicionarEnderecoCommand, ValidationResult>
     {
         private readonly IClienteRepository _clienteRepository;
 
@@ -44,6 +45,26 @@ namespace NSE.Clientes.API.Application.Commands
                 throw new Exception(ex.Message);
             }
 
+        }
+
+        public async Task<ValidationResult> Handle(AdicionarEnderecoCommand message, CancellationToken cancellationToken)
+        {
+            try
+            {
+				if (!message.EhValido()) return message.ValidationResult;
+
+				var endereco = new Endereco(message.Logradouro, message.Numero, message.Complemento, message.Bairro, message.Cep, message.Cidade, message.Estado, message.ClienteId);
+
+				_clienteRepository.AdicionarEndereco(endereco);
+
+				return await PersistirDados(_clienteRepository.UnitOfWork);
+			}
+            catch(Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+
+            
         }
     }
 }

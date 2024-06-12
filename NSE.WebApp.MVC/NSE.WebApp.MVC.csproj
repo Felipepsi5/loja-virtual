@@ -4,6 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>bfbf51c1-67cb-43b4-88a1-f9f0461914fa</UserSecretsId>
+	<Nullable>disable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,6 +17,10 @@
   <ItemGroup>
     <ProjectReference Include="..\NSE.Core\NSE.Core.csproj" />
     <ProjectReference Include="..\NSE.Web.Api.Core\NSE.Web.Api.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Pedido\" />
   </ItemGroup>
 
 </Project>

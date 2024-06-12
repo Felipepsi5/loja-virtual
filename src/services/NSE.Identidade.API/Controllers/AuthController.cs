@@ -170,10 +170,11 @@ namespace NSE.Identidade.API.Controllers
 			{
                 return await _bus.RequestAsync<UsuarioRegistradoIntegrationEvent, ResponseMessage>(usuarioRegistrado);
             }
-            catch 
+            catch (Exception ex)
 			{
+
 				await _userManager.DeleteAsync(usuario);
-				throw;
+				throw ex;
 			}
         }
     }

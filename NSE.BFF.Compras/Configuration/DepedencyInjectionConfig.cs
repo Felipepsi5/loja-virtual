@@ -1,4 +1,5 @@
-﻿using NSE.BFF.Compras.Extensions;
+﻿using NSE.Bff.Compras.Services;
+using NSE.BFF.Compras.Extensions;
 using NSE.BFF.Compras.Services;
 using NSE.Web.Api.Core.Extensions;
 using NSE.WebAPI.Core.Usuario;
@@ -32,6 +33,13 @@ namespace NSE.BFF.Compras.Configuration
                     .AddPolicyHandler(PollyExtensions.EsperarTentar())
                     .AddTransientHttpErrorPolicy(
                        p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));
-        }
+
+
+			services.AddHttpClient<IClienteService, ClienteService>()
+					.AddHttpMessageHandler<HttpClientAuthorizationDelegatingHandler>()
+					.AddPolicyHandler(PollyExtensions.EsperarTentar())
+					.AddTransientHttpErrorPolicy(
+					   p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));
+		}
     }
 }

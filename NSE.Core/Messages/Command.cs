@@ -1,5 +1,6 @@
 ﻿using FluentValidation.Results;
 using MediatR;
+using System.Text.Json.Serialization;
 
 namespace NSE.Core.Messages
 {
@@ -7,6 +8,7 @@ namespace NSE.Core.Messages
     {
         public DateTime Timestamp { get; private set; }
 
+        [JsonIgnore]
         public ValidationResult ValidationResult { get; set; }
 
         protected Command()
@@ -16,7 +18,8 @@ namespace NSE.Core.Messages
 
         public virtual bool EhValido()
         {
-            throw new NotImplementedException();
-        }
+            throw new Exception();
+
+		}
     }
 }

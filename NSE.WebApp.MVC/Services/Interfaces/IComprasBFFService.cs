@@ -11,5 +11,12 @@ namespace NSE.WebApp.MVC.Services.Interfaces
         Task<ResponseResult> AtualizarItemCarrinho(Guid idProduto, ItemCarrinhoViewModel produto);
         Task<ResponseResult> RemoverItemCarrinho(Guid produtoId);
         Task<ResponseResult> AplicarVoucherCarrinho(string voucher);
+
+        Task<ResponseResult> FinalizarPedido(PedidoTransacaoViewModel pedidoTransacao);
+        Task<PedidoViewModel> ObterUltimoPedido();
+
+        Task<IEnumerable<PedidoViewModel>> ObterListaPorClienteId();
+
+        PedidoTransacaoViewModel MapearParaPedido(CarrinhoViewModel carrinho, EnderecoViewModel endereco);
     }
 }
