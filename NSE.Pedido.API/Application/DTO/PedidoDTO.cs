@@ -14,6 +14,7 @@ namespace NSE.Pedidos.API.Application.DTO
         public bool VoucherUtilizado { get; set; }
         public List<PedidoItemDTO> pedidoItems { get; set; }
         public EnderecoDTO Endereco { get; set; }
+        public Guid ClienteId { get; set; }
 
         public static PedidoDTO ParaPedidoDTO(Pedido pedido)
         {

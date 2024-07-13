@@ -74,3 +74,8 @@ C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Catalogo.API\obj\Debu
 C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Catalogo.API\obj\Debug\net8.0\NSE.Catalogo.API.pdb
 C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Catalogo.API\obj\Debug\net8.0\NSE.Catalogo.API.genruntimeconfig.cache
 C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Catalogo.API\obj\Debug\net8.0\ref\NSE.Catalogo.API.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Catalogo.API\bin\Debug\net8.0\EasyNetQ.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Catalogo.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Catalogo.API\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Catalogo.API\bin\Debug\net8.0\NSE.MessageBus.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Catalogo.API\bin\Debug\net8.0\NSE.MessageBus.pdb

@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NSE.Core\NSE.Core.csproj" />
+    <ProjectReference Include="..\NSE.MessageBus\NSE.MessageBus.csproj" />
     <ProjectReference Include="..\NSE.Web.Api.Core\NSE.Web.Api.Core.csproj" />
   </ItemGroup>
 
