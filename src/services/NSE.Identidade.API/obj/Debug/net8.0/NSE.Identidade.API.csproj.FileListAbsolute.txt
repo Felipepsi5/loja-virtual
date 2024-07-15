@@ -84,3 +84,7 @@ C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\src\services\NSE.Identida
 C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\src\services\NSE.Identidade.API\obj\Debug\net8.0\ref\NSE.Identidade.API.dll
 C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\src\services\NSE.Identidade.API\bin\Debug\net8.0\MySqlConnector.dll
 C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\src\services\NSE.Identidade.API\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\src\services\NSE.Identidade.API\bin\Debug\net8.0\NetDevPack.Security.Jwt.AspNetCore.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\src\services\NSE.Identidade.API\bin\Debug\net8.0\NetDevPack.Security.Jwt.Core.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\src\services\NSE.Identidade.API\bin\Debug\net8.0\NetDevPack.Security.Jwt.Store.EntityFrameworkCore.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\src\services\NSE.Identidade.API\bin\Debug\net8.0\NetDevPack.Security.JwtExtensions.dll

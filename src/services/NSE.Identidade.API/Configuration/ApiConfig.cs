@@ -1,4 +1,5 @@
 ﻿using NSE.Web.Api.Core.Identidade;
+using NSE.WebAPI.Core.Usuario;
 
 namespace NSE.Identidade.API.Configuration
 {
@@ -7,6 +8,8 @@ namespace NSE.Identidade.API.Configuration
 		public static IServiceCollection AddApiConfiguration(this IServiceCollection services)
 		{
 			services.AddControllers();
+
+			services.AddScoped<IAspNetUser, AspNetUser>();
 
 			return services;
 		}
@@ -30,7 +33,9 @@ namespace NSE.Identidade.API.Configuration
 			app.UseAuthConfiguration();
 			app.MapControllers();
 
-			return app;
+            app.UseJwksDiscovery();
+
+            return app;
 		}
 
 	}

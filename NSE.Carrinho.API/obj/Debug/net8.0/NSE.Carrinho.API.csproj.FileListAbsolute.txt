@@ -89,3 +89,7 @@ C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Carrinho.API\obj\Debu
 C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Carrinho.API\obj\Debug\net8.0\ref\NSE.Carrinho.API.dll
 C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Carrinho.API\bin\Debug\net8.0\MySqlConnector.dll
 C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Carrinho.API\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Carrinho.API\bin\Debug\net8.0\NetDevPack.Security.Jwt.AspNetCore.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Carrinho.API\bin\Debug\net8.0\NetDevPack.Security.Jwt.Core.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Carrinho.API\bin\Debug\net8.0\NetDevPack.Security.Jwt.Store.EntityFrameworkCore.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Carrinho.API\bin\Debug\net8.0\NetDevPack.Security.JwtExtensions.dll

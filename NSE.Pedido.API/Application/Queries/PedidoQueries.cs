@@ -35,14 +35,20 @@ namespace NSE.Pedidos.API.Application.Queries
 								PI.ID as 'PedidoItemId', PI.ID, PI.PRODUTOID, PI.QUANTIDADE
 								FROM PEDIDOS P 
 								INNER JOIN PEDIDOITEMS PI ON P.ID = PI.PEDIDOID 
-								WHERE P.PEDIDOSSTATUS = 1 
+								WHERE P.PEDIDOSTATUS = 1 
 								ORDER BY P.DATACADASTRO";
+
+			var lookup = new Dictionary<Guid, PedidoDTO>();
 
 			var pedido = await _pedidoRepository.ObterConexao().QueryAsync<PedidoDTO, PedidoItemDTO, PedidoDTO>(sql, (p, pi) =>
 			{
-				p.pedidoItems = [pi];
+				if (!lookup.TryGetValue(p.Id, out var pedidoDTO))
+					lookup.Add(p.Id, pedidoDTO = p);
 
-				return p;
+				pedidoDTO.pedidoItems ??= new List<PedidoItemDTO>();
+				pedidoDTO.pedidoItems.Add(pi);
+
+				return pedidoDTO;
 			}, splitOn: "PedidoId, PedidoItemId");
 
 			return pedido.FirstOrDefault();

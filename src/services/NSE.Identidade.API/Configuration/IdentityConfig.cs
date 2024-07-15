@@ -1,7 +1,6 @@
-﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
+using NetDevPack.Security.Jwt.Core.Jwa;
 using NSE.Identidade.API.Data;
 using NSE.Identidade.API.Extensions;
 using NSE.Web.Api.Core.Identidade;
@@ -14,15 +13,18 @@ namespace NSE.Identidade.API.Configuration
 		public static IServiceCollection AddIdentityConfiguration(this IServiceCollection services, 
 			IConfiguration configuration)
 		{
-			services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+            services.AddJwksManager(options => options.Jws = Algorithm.Create(DigitalSignaturesAlgorithm.EcdsaSha256))
+                            .PersistKeysToDatabaseStore<ApplicationDbContext>()
+                            .UseJwtValidation();
+
+            services.AddDbContext<ApplicationDbContext>(options => 
+					options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
 			services.AddDefaultIdentity<IdentityUser>()
 							.AddRoles<IdentityRole>()
 							.AddErrorDescriber<IdentityMensagemPortugues>()
 							.AddEntityFrameworkStores<ApplicationDbContext>()
 							.AddDefaultTokenProviders();
-
-			services.AddJwtConfiguration(configuration);
 
 			return services;
 		}

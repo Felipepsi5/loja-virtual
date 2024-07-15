@@ -1,4 +1,4 @@
-﻿
+﻿using NSE.Core.Messages.Integration;
 using NSE.MessageBus;
 using NSE.Pedidos.API.Application.Queries;
 
@@ -10,9 +10,11 @@ namespace NSE.Pedidos.API.Services
 		private readonly IServiceProvider _serviceProvider;
 		private Timer _timer;
 
-        public PedidoOrquestradorIntegrationHandler(ILogger<PedidoOrquestradorIntegrationHandler> logger)
+        public PedidoOrquestradorIntegrationHandler(ILogger<PedidoOrquestradorIntegrationHandler> logger, 
+													IServiceProvider serviceProvider)
         {
 			_logger = logger;
+			_serviceProvider = serviceProvider;	
         }
 
         public Task StartAsync(CancellationToken cancellationToken)
@@ -27,7 +29,7 @@ namespace NSE.Pedidos.API.Services
 		{
 			using(var scope = _serviceProvider.CreateScope())
 			{
-				var pedidoQueries = scope.ServiceProvider.GetRequiredService<PedidoQueries>();
+				var pedidoQueries = scope.ServiceProvider.GetRequiredService<IPedidoQueries>();
 				var pedido = await pedidoQueries.ObterPedidosAutorizados();
 
 				if (pedido == null) return;

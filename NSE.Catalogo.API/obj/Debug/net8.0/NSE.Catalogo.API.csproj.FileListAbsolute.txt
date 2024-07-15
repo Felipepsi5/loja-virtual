@@ -79,3 +79,5 @@ C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Catalogo.API\bin\Debu
 C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Catalogo.API\bin\Debug\net8.0\RabbitMQ.Client.dll
 C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Catalogo.API\bin\Debug\net8.0\NSE.MessageBus.dll
 C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Catalogo.API\bin\Debug\net8.0\NSE.MessageBus.pdb
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Catalogo.API\bin\Debug\net8.0\Dapper.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Catalogo.API\bin\Debug\net8.0\NetDevPack.Security.JwtExtensions.dll

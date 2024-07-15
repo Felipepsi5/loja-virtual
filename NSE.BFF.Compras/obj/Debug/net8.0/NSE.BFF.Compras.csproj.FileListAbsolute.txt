@@ -244,3 +244,4 @@ C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.BFF.Compras\obj\Debug
 C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.BFF.Compras\obj\Debug\net8.0\NSE.BFF.Compras.pdb
 C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.BFF.Compras\obj\Debug\net8.0\NSE.BFF.Compras.genruntimeconfig.cache
 C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.BFF.Compras\obj\Debug\net8.0\ref\NSE.BFF.Compras.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.BFF.Compras\bin\Debug\net8.0\NetDevPack.Security.JwtExtensions.dll

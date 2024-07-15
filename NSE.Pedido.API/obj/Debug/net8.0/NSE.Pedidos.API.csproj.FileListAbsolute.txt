@@ -85,3 +85,4 @@ C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Pedido.API\obj\Debug\
 C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Pedido.API\obj\Debug\net8.0\NSE.Pedidos.API.pdb
 C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Pedido.API\obj\Debug\net8.0\NSE.Pedidos.API.genruntimeconfig.cache
 C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Pedido.API\obj\Debug\net8.0\ref\NSE.Pedidos.API.dll
+C:\Users\felip\OneDrive\Área de Trabalho\loja-virtual\NSE.Pedido.API\bin\Debug\net8.0\NetDevPack.Security.JwtExtensions.dll
