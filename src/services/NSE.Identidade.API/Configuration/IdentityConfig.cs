@@ -3,8 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using NetDevPack.Security.Jwt.Core.Jwa;
 using NSE.Identidade.API.Data;
 using NSE.Identidade.API.Extensions;
-using NSE.Web.Api.Core.Identidade;
-using System.Text;
 
 namespace NSE.Identidade.API.Configuration
 {
@@ -13,6 +11,9 @@ namespace NSE.Identidade.API.Configuration
 		public static IServiceCollection AddIdentityConfiguration(this IServiceCollection services, 
 			IConfiguration configuration)
 		{
+			var appSettingsSection = configuration.GetSection("AppTokenSettings");
+			services.Configure<AppTokenSettings>(appSettingsSection);				
+
             services.AddJwksManager(options => options.Jws = Algorithm.Create(DigitalSignaturesAlgorithm.EcdsaSha256))
                             .PersistKeysToDatabaseStore<ApplicationDbContext>()
                             .UseJwtValidation();

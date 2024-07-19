@@ -3,52 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7A1BD30-079B-466A-BBEE-EC63623F4D0B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\loja-virtual\\src\\services\\nse.identidade.api\\configuration\\apiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7A1BD30-079B-466A-BBEE-EC63623F4D0B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\configuration\\apiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7A1BD30-079B-466A-BBEE-EC63623F4D0B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\loja-virtual\\src\\services\\nse.identidade.api\\configuration\\identityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7A1BD30-079B-466A-BBEE-EC63623F4D0B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\configuration\\identityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7A1BD30-079B-466A-BBEE-EC63623F4D0B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\loja-virtual\\src\\services\\nse.identidade.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E7A1BD30-079B-466A-BBEE-EC63623F4D0B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCAD9FA3-E732-4079-B384-BA25089C0281}|NSE.BFF.Compras\\NSE.BFF.Compras.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\loja-virtual\\nse.bff.compras\\controllers\\carrinhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCAD9FA3-E732-4079-B384-BA25089C0281}|NSE.BFF.Compras\\NSE.BFF.Compras.csproj|solutionrelative:nse.bff.compras\\controllers\\carrinhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCAD9FA3-E732-4079-B384-BA25089C0281}|NSE.BFF.Compras\\NSE.BFF.Compras.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\loja-virtual\\nse.bff.compras\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FCAD9FA3-E732-4079-B384-BA25089C0281}|NSE.BFF.Compras\\NSE.BFF.Compras.csproj|solutionrelative:nse.bff.compras\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26139374-C7F0-4CB4-A7D4-35C94FE3AE35}|NSE.Pedido.API\\NSE.Pedidos.API.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\loja-virtual\\nse.pedido.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{26139374-C7F0-4CB4-A7D4-35C94FE3AE35}|NSE.Pedido.API\\NSE.Pedidos.API.csproj|solutionrelative:nse.pedido.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{139D6A40-77B5-4475-B1A6-ABC9A7C77771}|NSE.Pagamento.API\\NSE.Pagamentos.API.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\loja-virtual\\nse.pagamento.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{139D6A40-77B5-4475-B1A6-ABC9A7C77771}|NSE.Pagamento.API\\NSE.Pagamentos.API.csproj|solutionrelative:nse.pagamento.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF7152B3-6426-4BCC-BBE4-91DCA64F93CB}|NSE.Cliente.API\\NSE.Clientes.API.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\loja-virtual\\nse.cliente.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AF7152B3-6426-4BCC-BBE4-91DCA64F93CB}|NSE.Cliente.API\\NSE.Clientes.API.csproj|solutionrelative:nse.cliente.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EB15ACD-0CAE-4907-972C-0C74613DE7E1}|NSE.Catalogo.API\\NSE.Catalogo.API.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\loja-virtual\\nse.catalogo.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3EB15ACD-0CAE-4907-972C-0C74613DE7E1}|NSE.Catalogo.API\\NSE.Catalogo.API.csproj|solutionrelative:nse.catalogo.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B114A42B-05BC-4CFC-B508-883BDBC3AF9C}|NSE.Carrinho.API\\NSE.Carrinho.API.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\loja-virtual\\nse.carrinho.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B114A42B-05BC-4CFC-B508-883BDBC3AF9C}|NSE.Carrinho.API\\NSE.Carrinho.API.csproj|solutionrelative:nse.carrinho.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E7A1BD30-079B-466A-BBEE-EC63623F4D0B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\loja-virtual\\src\\services\\nse.identidade.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A1BD30-079B-466A-BBEE-EC63623F4D0B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A1BD30-079B-466A-BBEE-EC63623F4D0B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\loja-virtual\\src\\services\\nse.identidade.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E7A1BD30-079B-466A-BBEE-EC63623F4D0B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E7A1BD30-079B-466A-BBEE-EC63623F4D0B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\loja-virtual\\src\\services\\nse.identidade.api\\services\\autheticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A1BD30-079B-466A-BBEE-EC63623F4D0B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\services\\autheticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,157 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IdentityConfig.cs",
-              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\src\\services\\NSE.Identidade.API\\Configuration\\IdentityConfig.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Configuration\\IdentityConfig.cs",
-              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\src\\services\\NSE.Identidade.API\\Configuration\\IdentityConfig.cs",
-              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Configuration\\IdentityConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAuAAAA",
+              "Title": "AutheticationService.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\src\\services\\NSE.Identidade.API\\Services\\AutheticationService.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Services\\AutheticationService.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\src\\services\\NSE.Identidade.API\\Services\\AutheticationService.cs",
+              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Services\\AutheticationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGoAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T21:06:25.499Z",
+              "WhenOpened": "2024-07-19T15:21:00.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApiConfig.cs",
-              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\src\\services\\NSE.Identidade.API\\Configuration\\ApiConfig.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Configuration\\ApiConfig.cs",
-              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\src\\services\\NSE.Identidade.API\\Configuration\\ApiConfig.cs",
-              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Configuration\\ApiConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T21:06:15.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CarrinhoController.cs",
-              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.BFF.Compras\\Controllers\\CarrinhoController.cs",
-              "RelativeDocumentMoniker": "NSE.BFF.Compras\\Controllers\\CarrinhoController.cs",
-              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.BFF.Compras\\Controllers\\CarrinhoController.cs",
-              "RelativeToolTip": "NSE.BFF.Compras\\Controllers\\CarrinhoController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCoAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T21:03:22.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.Catalogo.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "NSE.Catalogo.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.Catalogo.API\\appsettings.Development.json",
-              "RelativeToolTip": "NSE.Catalogo.API\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-15T20:57:17.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.BFF.Compras\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "NSE.BFF.Compras\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.BFF.Compras\\appsettings.Development.json",
-              "RelativeToolTip": "NSE.BFF.Compras\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-15T20:56:00.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.Cliente.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "NSE.Cliente.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.Cliente.API\\appsettings.Development.json",
-              "RelativeToolTip": "NSE.Cliente.API\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-15T20:57:21.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.Carrinho.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "NSE.Carrinho.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.Carrinho.API\\appsettings.Development.json",
-              "RelativeToolTip": "NSE.Carrinho.API\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-15T20:57:12.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T20:56:53.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\src\\services\\NSE.Identidade.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\src\\services\\NSE.Identidade.API\\appsettings.Development.json",
-              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-15T20:56:30.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.Pedido.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "NSE.Pedido.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.Pedido.API\\appsettings.Development.json",
-              "RelativeToolTip": "NSE.Pedido.API\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-15T20:57:48.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\src\\services\\NSE.Identidade.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\src\\services\\NSE.Identidade.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-15T20:56:34.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.Pagamento.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "NSE.Pagamento.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\loja-virtual\\NSE.Pagamento.API\\appsettings.Development.json",
-              "RelativeToolTip": "NSE.Pagamento.API\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-15T20:57:36.827Z",
+              "WhenOpened": "2024-07-19T15:19:57.006Z",
               "EditorCaption": ""
             }
           ]
